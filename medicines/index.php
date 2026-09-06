@@ -49,6 +49,8 @@
             <input type="text" id="buscador" class="form-control search-bar" placeholder="Buscar medicamento...">
         </div>
 
+        <a href="login.php" class="btn btn-ṕrimary"><i class="fa-solid fa-code"></i></a>
+
         <!-- Tabla de medicamentos -->
         <div class="mt-3" id="tabla-container">
             <table class="table table-striped table-hover">
@@ -90,7 +92,6 @@
             </table>
         </div>
     </div>
-
     <script>
         document.getElementById("buscador").addEventListener("keyup", function() {
             let filtro = this.value.toLowerCase();

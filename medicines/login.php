@@ -1,4 +1,4 @@
-<?php
+1<?php
     session_start();
     require_once 'medicines_db.php';
 
@@ -34,7 +34,6 @@
             }
         }
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
